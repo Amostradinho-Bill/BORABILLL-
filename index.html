@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">
+    <title>Indo pra escola</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.jpg" alt="">
+            <p>Um dia você se perdeu para ir á escola, então é seu trabalho chegar nela e estudar hoje.
+                Primeiramente, quém você é?</p>
+            <button class="btn-proximo" data-proximo="1">Menino</button>
+            <button class="btn-proximo" data-proximo="2">Menina</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="cenario-passo1.jpg" alt="">
+            <p>Você segue o seu caminho e se encontra com duas opções:</p>
+            <button class="btn-proximo" data-proximo="3">Direita</button>
+            <button class="btn-proximo" data-proximo="4">Esquerda</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Nesse caminho, ao andar um pouco você se lembra do caminho e segue a rota</p>
+            <button class="btn-proximo" data-proximo="5">Seguir</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="cenario-passo3.jpeg" alt="">
+            <p>Você chegou a escola, e está pronto pra estudar (YEAH!)</p>
+            <button class="btn-proximo" data-proximo="6">Finalizar</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4.jpg" alt="">
+            <p>FIM!!!!</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
